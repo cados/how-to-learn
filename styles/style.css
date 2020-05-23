@@ -16,7 +16,7 @@
   position: relative;
   background-color: #f2f2f2;
   display: flex;
-  border: 1px #bfbfbf solid;
+  /* border: 1px #bfbfbf solid; */
   /* выше установили ограничения для секции */
 }
 .logo {
@@ -122,6 +122,7 @@
   margin-right: auto;
   margin-top: 0px;
   margin-bottom: 0px;
+  color: #000;
 }
 
 .section-subtitle {
@@ -133,6 +134,7 @@
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
+  color: #000;
 }
 .table {
   width: 1100px;
@@ -152,18 +154,23 @@
   margin-top: 20px;
   margin-bottom: 0px;
   font-weight: normal;
+  color: #000;
 }
 .table__heading {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bolder;
   margin: 0px;
+  color: #000;
 }
-
+.table__heading_theme_dark {
+  color: #fff;
+}
+.table__text_theme_dark {
+  color: #fff;
+}
 /* секция feynman */
 .feynman {
-  border-top: 1px solid #bfbfbf;
-  border-bottom: 1px solid #bfbfbf;
   position: relative;
   background-color: #f2f2f2;
   min-height: 790px;
@@ -236,7 +243,6 @@
 
 .table__cell_theme_dark {
   width: 200px;
-  color: white;
   margin-top: 80px;
   z-index: 1;
 }
@@ -244,7 +250,7 @@
 /* секция footer */
 .footer {
   background-color: #1f1f1f;
-  border-top: 1px solid #bfbfbf;
+  /* border-top: 1px solid #bfbfbf; */
   padding-bottom: 40px;
   padding-top: 60px;
 }
