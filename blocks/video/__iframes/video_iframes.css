@@ -1,0 +1,8 @@
+.video__iframes {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 515px 515px;
+  grid-template-rows: 316px;
+  grid-column-gap: 20px;
+  justify-content: center;
+}
