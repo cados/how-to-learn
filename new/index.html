@@ -2,8 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="styles/normalize.css" />
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="page/index.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
@@ -61,37 +60,91 @@
         <section class="techniques">
           <h2 class="section-title">Техники обучения</h2>
           <p class="section-subtitle">Пять практик от Барбары Оакли</p>
-          <div class="cards">
-            <div class="item">
-              <img class="cards__image" src="./images/cards-attention.png" alt="attention">
+          <ul class="cards">
+            <li class="cards__item">
+              <img
+                class="cards__image"
+                src="./blocks/cards/images/cards-attention.png"
+                alt="attention"
+              />
               <h3 class="cards__title">Два вида внимания</h3>
-              <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
-            </div>
-            <div class="item">
-              <img class="cards__image" src="./images/cards-recall.png" alt="recall">
+              <p class="cards__description">
+                Глубокие знания возникают, если чередовать сфокусированное и
+                рассеянное мышление.
+              </p>
+            </li>
+            <li class="cards__item">
+              <img
+                class="cards__image"
+                src="./blocks/cards/images/cards-recall.png"
+                alt="recall"
+              />
               <h3 class="cards__title">Recall</h3>
-              <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
-            </div><div class="item">
-              <img class="cards__image" src="./images/cards-interliving.png" alt="interliving">
+              <p class="cards__description">
+                Вспоминайте изученное — это позволит соединить разрозненные
+                порции памяти.
+              </p>
+            </li>
+            <li class="cards__item">
+              <img
+                class="cards__image"
+                src="./blocks/cards/images/cards-interliving.png"
+                alt="interliving"
+              />
               <h3 class="cards__title">Интерливинг</h3>
-              <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
-            </div><div class="item">
-              <img class="cards__image" src="./images/cards-question.png" alt="question">
+              <p class="cards__description">
+                Изучайте несколько навыков одновременно, они обогащают друг
+                друга.
+              </p>
+            </li>
+            <li class="cards__item">
+              <img
+                class="cards__image"
+                src="./blocks/cards/images/cards-question.png"
+                alt="question"
+              />
               <h3 class="cards__title">Вопросы</h3>
-              <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
-            </div><div class="item">
-              <img class="cards__image" src="./images/cards-competence.png" alt="competence">
+              <p class="cards__description">
+                Слушая преподавателя, придумывайте хороший вопрос, который вас
+                действительно волнует.
+              </p>
+            </li>
+            <li class="cards__item">
+              <img
+                class="cards__image"
+                src="./blocks/cards/images/cards-competence.png"
+                alt="competence"
+              />
               <h3 class="cards__title">Иллюзия компетентности</h3>
-              <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
-            </div>
-          </div>
+              <p class="cards__description">
+                Повторите про себя, запишите, расскажите другу: вам только
+                кажется, что вы владеете новой темой.
+              </p>
+            </li>
+          </ul>
         </section>
         <section class="video">
           <h2 class="section-title">Видео на TED</h2>
           <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
           <div class="video__iframes">
-            <div class="video__iframe"><iframe width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-            <div class="video__iframe"><iframe width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div class="video__iframe">
+              <iframe
+                width="515"
+                height="316"
+                src="https://www.youtube.com/embed/arj7oStGLkU"
+                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="video__iframe">
+              <iframe
+                width="515"
+                height="316"
+                src="https://www.youtube.com/embed/5MgBikgcWnY"
+                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
           </div>
         </section>
         <section class="oakley">
@@ -167,9 +220,7 @@
         <section class="khan">
           <div class="khan__container">
             <span class="khan__author">Салман Хан</span>
-
             <h2 class="khan__title">Весь мир - школа</h2>
-
             <p class="khan__quote">
               Страсть и новаторство Сала Хана меняют процесс обучения миллионов
               студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать
@@ -177,12 +228,19 @@
               получить навыки и знания, которые приносят успех в школе, карьере
               и жизни.
             </p>
-
             <span class="khan__quote-author">Джордж Лукас</span>
-            <span class="khan__quote-author-subline">Кинорежиссер, продюссер</spa>
+            <span class="khan__quote-author-subline"
+              >Кинорежиссер, продюссер</span
+            >
             <div class="khan__book-container">
-              <img class="khan__book-pic" src="./images/khan-book.jpg" alt="весь мир-школа">
-              <a class="khan__buy-link" href="#">Купить книгу &rarr;</a>
+              <img
+                class="khan__book-pic"
+                src="./images/khan-book.jpg"
+                alt="весь мир-школа"
+              />
+              <a class="header__link khan__buy-link" href="#"
+                >Купить книгу &rarr;</a
+              >
             </div>
           </div>
         </section>
@@ -259,13 +317,30 @@
         </section>
         <section class="resources">
           <h2 class="section-title">Полезные ресурсы</h2>
-          <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
+          <p class="section-subtitle">
+            Больше материалов о техниках и лайфхаках обучения
+          </p>
           <div class="resources__logo-zone">
-            
-            <img  class="resources__logo" src="./images/resources-arzamas.svg" alt="арзамас">
-            <img  class="resources__logo" src="./images/resources-n1.svg" alt="n1">
-            <img  class="resources__logo" src="./images/resources-strelka.svg" alt="стрелка">
-            <img  class="resources__logo" src="./images/resources-polka.svg" alt="полка">
+            <img
+              class="resources__logo"
+              src="./images/resources-arzamas.svg"
+              alt="арзамас"
+            />
+            <img
+              class="resources__logo"
+              src="./images/resources-n1.svg"
+              alt="n1"
+            />
+            <img
+              class="resources__logo"
+              src="./images/resources-strelka.svg"
+              alt="стрелка"
+            />
+            <img
+              class="resources__logo"
+              src="./images/resources-polka.svg"
+              alt="полка"
+            />
           </div>
         </section>
       </main>
