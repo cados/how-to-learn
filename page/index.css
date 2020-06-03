@@ -57,6 +57,7 @@
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  list-style-type: none;
 }
 .resources__logo {
   width: 270px;
@@ -81,12 +82,12 @@
   z-index: 0;
   background-size: contain;
 }
-a {
+.link {
   transition: 0.5s ease;
   -moz-transition: 0.5s ease;
   -o-transition: 0.5s ease;
   -webkit-transition: 0.5s ease;
 }
-a:hover {
+.link:hover {
   opacity: 0.5;
 }
